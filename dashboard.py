@@ -74,7 +74,7 @@ st.plotly_chart(figcrvop,use_container_width=True)
 st.subheader("CURVE-POLYGON swapping volume")
 st.plotly_chart(figcrvpol,use_container_width=True)
 
-st.subheader("CONCLUSIONs:")
+st.subheader("CONCLUSIONS:")
 st.write("1- It appears that Uniswap has a lead over Curve in the daily swap volumes on L2s. This is interesting because Curve has a higher TVL(at the moment) than Uniswap.")
 st.write("2- This lead shows that users of L2 generally prefer Uniswap as their DEX over Curve")
 st.write("3- It seems polygon is the most popular L2 among the users of Uniswap but arbitrum seems to be doing great as well")
@@ -82,5 +82,12 @@ st.write("4- the daily swapping volume of L2s may have decreased due to the prev
 st.write("5- The swapping is still somewhat high despite the recent decrease , this shows that L2s might be slowly picking up in popularity")
 
 st.subheader("data sources-")
+st.write("https://thegraph.com/hosted-service/subgraph/convex-community/volume-optimism")
+st.write("https://thegraph.com/hosted-service/subgraph/convex-community/volume-arbitrum")
+st.write("https://thegraph.com/hosted-service/subgraph/convex-community/volume-matic")
+st.write("https://thegraph.com/hosted-service/subgraph/ianlapham/optimism-post-regenesis")
+st.write("https://thegraph.com/hosted-service/subgraph/ianlapham/arbitrum-minimal")
+st.write("https://thegraph.com/hosted-service/subgraph/ianlapham/uniswap-v3-polygon")
 
+st.write("github repo - https://github.com/realguy33/uni-chal-27/")
 
