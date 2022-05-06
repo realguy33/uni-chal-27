@@ -70,6 +70,4 @@ st.subheader("CURVE-ARBITRUM swapping volume")
 st.plotly_chart(figcrvarb,use_container_width=True)
 st.subheader("CURVE-OPTIMISM swapping volume")
 st.plotly_chart(figcrvop,use_container_width=True)
-st.subheader("CURVE-POLYGON swapping volume")
-st.plotly_chart(figcrvpol,use_container_width=True)
 
