@@ -49,5 +49,5 @@ figcrvpol.update_layout(
 #stream lit work
 
 st.title("Uniswap Daily Swap Volume in USD on different L2s")
-st.write("Uniswap is DEX(Decentrailized Exchange) on Ethereum mainnet and it is also available on various L2s such Arbitrum,Optimism and polygon."
+st.write("Uniswap is DEX(Decentrailized Exchange) on Ethereum mainnet and it is also available on various L2s such Arbitrum,Optimism and polygon.")
          
