@@ -58,7 +58,7 @@ st.write("now let's compare the swapping volume between different L2s")
 
 st.subheader("UNISWAP-ARBITRUM swapping volume")
 st.plotly_chart(figuniarb,use_container_width=True)
-st.write("it appears that there was an increase in swapping volume during november which makes sense since that was near the peak of bullrum")
+st.write("it appears that there was an increase in swapping volume during november which makes sense since that was near the peak of bullrun")
 
 st.subheader("UNISWAP-OPTIMISM swapping volume")
 st.plotly_chart(figuniop,use_container_width=True)
