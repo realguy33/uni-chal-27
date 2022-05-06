@@ -6,12 +6,12 @@ from datetime import datetime
 import plotly.express as px
 
 
-duniarb = pd.read_csv("./uni-chal-27/duniarb.csv")
-duniop = pd.read_csv("./uni-chal-27/duniop.csv")
-dunipol = pd.read_csv("./uni-chal-27/dunipol.csv")
-dcrvarb = pd.read_csv("./uni-chal-27/dcrvarb.csv")
-dcrvop = pd.read_csv("./uni-chal-27/dcrvop.csv")
-dcrvpol = pd.read_csv("./uni-chal-27/dcrvpol.csv")
+duniarb = pd.read_csv("duniarb.csv")
+duniop = pd.read_csv("duniop.csv")
+dunipol = pd.read_csv("dunipol.csv")
+dcrvarb = pd.read_csv("dcrvarb.csv")
+dcrvop = pd.read_csv("dcrvop.csv")
+dcrvpol = pd.read_csv("dcrvpol.csv")
 
 
 figuniarb = px.bar(duniarb, x= "uniswapDayDatas_datetime",y = "uniswapDayDatas_volumeUSD") 
