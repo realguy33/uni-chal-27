@@ -50,4 +50,5 @@ figcrvpol.update_layout(
 
 st.title("Uniswap Daily Swap Volume in USD on different L2s")
 st.write("Uniswap is DEX(Decentrailized Exchange) on Ethereum mainnet and it is also available on various L2s such Arbitrum,Optimism and polygon.")
+st.write("The advantage of using these L2s over the ethereum mainnet is that the gas fees on L2s are much much lower than ethereum and these L2s also claim to have the same as that  of ethereum. This makes them attractive to the users.This means that the usage of various L@s should slowly be increasing. is this true? let's find out:")
          
